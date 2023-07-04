@@ -6,6 +6,10 @@ TagManager:
   tags:
   - CrashMode
   - Coin
+  - Player1
+  - Player2
+  - Player3
+  - Player4
   layers:
   - Default
   - TransparentFX
@@ -22,10 +26,10 @@ TagManager:
   - CrashObject
   - Kart
   - TrainingCheckpoints
-  - 
-  - 
-  - 
-  - 
+  - Player1
+  - Player2
+  - Player3
+  - Player4
   - 
   - 
   - 
