@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7334959295220390224}
   - component: {fileID: 5867113584374758945}
   m_Layer: 0
-  m_Name: ObjectiveLaps
+  m_Name: ObjectiveSinglePlayerLaps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,9 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4170175d245c6409bb0cb4cc7b2c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Get everyone to complete a lap
-
-'
+  message: Get everyone across the finish line
   messagePrefab: {fileID: 11400000, guid: 4f09a4fe2b79f494cb4b65e27102ddd2, type: 2}
   delayBeforeShowing: 3
   autoDisplayOnAwake: 0
