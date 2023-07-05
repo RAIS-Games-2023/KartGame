@@ -9,6 +9,8 @@ namespace KartGame.KartSystems {
                public string AccelerateButtonName = "Accelerate";
                public string BrakeButtonName = "Brake";*/
 
+        private CharacterSelection selection;
+
         public PlayerInput input;
 
         bool accelerate, brake;
@@ -17,6 +19,7 @@ namespace KartGame.KartSystems {
         private void Awake()
         {
             input = GetComponent<PlayerInput>();
+            selection = GetComponent<CharacterSelection>();
         }
 
         public override InputData GenerateInput() {
@@ -31,6 +34,16 @@ namespace KartGame.KartSystems {
                 Brake = brake,
                 TurnInput = turn_input
             };
+        }
+
+        public void OnCSLeft()
+        {
+            selection.PreviousCharacter();
+        }
+
+        public void OnCSRight() 
+        {
+            selection.NextCharacter();
         }
     }
 }
