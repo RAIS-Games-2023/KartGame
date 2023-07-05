@@ -49,7 +49,7 @@ MonoBehaviour:
   targetName: Coin
   title: Collect Coins
   description: Coins
-  isOptional: 0
+  isOptional: 1
   delayVisible: 5
   isTimed: 0
   totalTimeInSecs: 60
