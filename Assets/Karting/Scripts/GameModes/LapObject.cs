@@ -25,7 +25,17 @@ public class LapObject : TargetObject
     {
         if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player")))
             return;
-       
+
+        /*if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player1")))
+            return;
+        if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player2")))
+            return;
+        if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player3")))
+            return;
+        if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player4")))
+            return;*/
+
+
         Objective.OnUnregisterPickup?.Invoke(this);
     }
 }
