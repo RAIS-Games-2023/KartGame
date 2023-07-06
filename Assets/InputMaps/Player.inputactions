@@ -34,7 +34,7 @@
                 },
                 {
                     "name": "CSLeft",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "6a6be374-e27f-4b9a-b458-9ace3fd43097",
                     "expectedControlType": "Button",
                     "processors": "",
