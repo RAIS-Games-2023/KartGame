@@ -7397,6 +7397,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerAnimator: {fileID: 6654534546040796670}
+  anims:
+  - {fileID: 6654534546040796670}
+  - {fileID: 6008990161578447145}
+  - {fileID: 8952796912976791252}
+  - {fileID: 4134005279695949055}
   Kart: {fileID: 4871065950841054665}
   SteeringParam: Steering
   GroundedParam: Grounded
@@ -7443,7 +7448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8534e17a0f90604c9afd4f5c73d829f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: 767b894a-7f3e-47c6-8348-415dafd82820
+  m_Id: a9b1fa57-6a62-48e8-b7b0-1ff7727e8382
 --- !u!114 &29285177899935719
 MonoBehaviour:
   m_ObjectHideFlags: 0
