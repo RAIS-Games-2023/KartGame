@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6476761486914414154
+--- !u!1 &5095857580634628870
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6476761486914414148}
-  - component: {fileID: 6476761486914414150}
-  - component: {fileID: 6476761486914414149}
+  - component: {fileID: 5095857580634628872}
+  - component: {fileID: 5095857580634628874}
+  - component: {fileID: 5095857580634628873}
   m_Layer: 0
-  m_Name: ObjectiveCoins
+  m_Name: ObjectiveCoins2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6476761486914414148
+--- !u!4 &5095857580634628872
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6476761486914414154}
+  m_GameObject: {fileID: 5095857580634628870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -22.843828, y: 23.447208, z: -51.910393}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,43 +33,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6476761486914414150
+--- !u!114 &5095857580634628874
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6476761486914414154}
+  m_GameObject: {fileID: 5095857580634628870}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9266a736ad4804e8aa383ea677bf51fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameMode: 0
+  gameMode: 4
   targetName: Coin
-  title: Collect Coins
-  description: Coins
+  title: Player2 Collect Coins
+  description: Player2 Coins
   isOptional: 1
   delayVisible: 5
   isTimed: 0
   totalTimeInSecs: 60
-  displayMessage: {fileID: 6476761486914414149}
+  displayMessage: {fileID: 5095857580634628873}
   mustCollectAllPickups: 0
   pickupsToCompleteObjective: 13
   notificationPickupsRemainingThreshold: 1
---- !u!114 &6476761486914414149
+--- !u!114 &5095857580634628873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6476761486914414154}
+  m_GameObject: {fileID: 5095857580634628870}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea4170175d245c6409bb0cb4cc7b2c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Collect as many coins as you can
+  message: 'Player2: Collect as many coins as you can
 
 '
   messagePrefab: {fileID: 11400000, guid: 4f09a4fe2b79f494cb4b65e27102ddd2, type: 2}

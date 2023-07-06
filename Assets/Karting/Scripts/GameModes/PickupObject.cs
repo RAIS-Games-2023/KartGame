@@ -37,14 +37,21 @@ public class PickupObject : TargetObject
 
         TimeManager.OnAdjustTime(TimeGained);
 
-        Destroy(gameObject, collectDuration);
+        Destroy(transform.parent.gameObject, collectDuration);
     }
     
     void OnTriggerEnter(Collider other)
     {
         if ((layerMask.value & 1 << other.gameObject.layer) > 0 && other.gameObject.CompareTag("Player"))
         {
-            OnCollect();
+            if (other.transform.parent.CompareTag("Player1") && gameMode == GameMode.Player1)
+            {
+                OnCollect();
+            }
+            else if (other.transform.parent.CompareTag("Player2") && gameMode == GameMode.Player2)
+            {
+                OnCollect();
+            }
         }
     }
 }
